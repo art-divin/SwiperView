@@ -33,9 +33,10 @@ SwiperView is written in Swift, so you'll need at least **XCode 6.0** to run it
 While developing, I've checked out these references:
 
 1. https://github.com/yahoojapan/DynamicsSample
-2. https://github.com/TeehanLax/UICollectionView-Spring-Demo/blob/master/UICollectionView-Spring-Demo/TLViewController.m
-3. https://developer.apple.com/library/ios/documentation/UIKit/Reference/UISnapBehavior_Class/index.html
-4. https://developer.apple.com/library/ios/samplecode/DynamicsCatalog/Introduction/Intro.html
+2. https://github.com/ide/UIVisualEffects
+3. https://github.com/TeehanLax/UICollectionView-Spring-Demo/blob/master/UICollectionView-Spring-Demo/TLViewController.m
+4. https://developer.apple.com/library/ios/documentation/UIKit/Reference/UISnapBehavior_Class/index.html
+5. https://developer.apple.com/library/ios/samplecode/DynamicsCatalog/Introduction/Intro.html
 
 ### License ###
 
