@@ -13,6 +13,8 @@
 		C96F312F1A7C24B1009C8CCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96F312E1A7C24B1009C8CCA /* Images.xcassets */; };
 		C96F31321A7C24B1009C8CCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C96F31301A7C24B1009C8CCA /* LaunchScreen.xib */; };
 		C96F313E1A7C24B1009C8CCA /* SwiperDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96F313D1A7C24B1009C8CCA /* SwiperDemoTests.swift */; };
+		C96F31481A7C2531009C8CCA /* SwiperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96F31471A7C2531009C8CCA /* SwiperCell.swift */; };
+		C96F314A1A7C2614009C8CCA /* SwiperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96F31491A7C2614009C8CCA /* SwiperView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C96F31371A7C24B1009C8CCA /* SwiperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96F313C1A7C24B1009C8CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C96F313D1A7C24B1009C8CCA /* SwiperDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiperDemoTests.swift; sourceTree = "<group>"; };
+		C96F31471A7C2531009C8CCA /* SwiperCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiperCell.swift; sourceTree = "<group>"; };
+		C96F31491A7C2614009C8CCA /* SwiperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiperView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +81,9 @@
 		C96F31241A7C24B1009C8CCA /* SwiperDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C96F31491A7C2614009C8CCA /* SwiperView.swift */,
 				C96F31271A7C24B1009C8CCA /* AppDelegate.swift */,
+				C96F31471A7C2531009C8CCA /* SwiperCell.swift */,
 				C96F31291A7C24B1009C8CCA /* ViewController.swift */,
 				C96F312B1A7C24B1009C8CCA /* Main.storyboard */,
 				C96F312E1A7C24B1009C8CCA /* Images.xcassets */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96F314A1A7C2614009C8CCA /* SwiperView.swift in Sources */,
 				C96F312A1A7C24B1009C8CCA /* ViewController.swift in Sources */,
 				C96F31281A7C24B1009C8CCA /* AppDelegate.swift in Sources */,
+				C96F31481A7C2531009C8CCA /* SwiperCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
