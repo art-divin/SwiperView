@@ -1,5 +1,7 @@
 # SwiperView
-Swiper View is a class that provides simple and easy-to-use swipable view
+Swiper View is a class that provides simple and easy-to-use swipable view:
+
+![alt tag](swiper.gif)
 
 # Description
 
