@@ -13,14 +13,14 @@ Swiper View consists of:
 2. Content view to which UIVisualEffects are applied
 3. Topmost view (which is a content view) to which readable UI elements should be added
 4. UIDynamicsAnimator that handles:
-4.1 UICollisionBehavior that restricts movement of the content view
-4.2 UIDynamicItemBehavior that restricts rotation of the content view
-4.3 UISnapBehavior that attaches center of the content view with base view
+  * UICollisionBehavior that restricts movement of the content view
+  * UIDynamicItemBehavior that restricts rotation of the content view
+  * UISnapBehavior that attaches center of the content view with base view
 5. UIPanGestureRecognizer that reacts on user interaction
 6. UILabels for: 
-6.1 Left item
-6.2 Right item
-6.3 Text on topmost item
+  * Left item
+  * Right item
+  * Text on topmost item
 
 # Requirements
 
