@@ -29,12 +29,12 @@ class SwiperView: UIView, UICollisionBehaviorDelegate {
 		super.init(frame: frame)
 		let blurEffect = UIBlurEffect(style: .ExtraLight)
 		contentView = UIVisualEffectView(effect: blurEffect)
-		collisionInset = UIEdgeInsets(top: -1, left: leftInset, bottom: -1, right: rightInset)
+		collisionInset = UIEdgeInsets(top: 0, left: leftInset, bottom: 0, right: rightInset)
 	}
 	
 	override var frame: CGRect {
 		didSet {
-			contentView?.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height + 2)
+			contentView?.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
 			if let contentView = contentView {
 				animator?.removeAllBehaviors()
 				let vibrancyEffect = UIVibrancyEffect(forBlurEffect: contentView.effect as UIBlurEffect)

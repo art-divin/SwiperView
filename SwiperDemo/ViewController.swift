@@ -16,6 +16,7 @@ class ViewController: UITableViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
 		self.tableView.registerClass(SwiperCell.self, forCellReuseIdentifier: cellID)
+		self.tableView.separatorStyle = .None
 	}
 
 	override func didReceiveMemoryWarning() {
