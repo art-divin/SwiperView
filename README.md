@@ -28,6 +28,10 @@ SwiperView uses [UIVibrancyEffect](https://developer.apple.com/library/prereleas
 I personally think that this control doesn't make much of a sense without transparency (blur) and vibrancy (for blur) because user expects "Delete" button to appear, and not a custom control. User won't figure out that there's something underneath cell's view without seeing some kind of indication, for which blur is used.
 SwiperView is written in Swift, so you'll need at least **XCode 6.0** to run it
 
+### Notes ###
+
+* In order to support UITableViewCell separator, separator should be added as a separate subview to UITableViewCell's content view underneath the SwiperView.
+
 ### References ###
 
 While developing, I've checked out these references:
