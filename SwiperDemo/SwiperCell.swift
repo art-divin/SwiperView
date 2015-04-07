@@ -32,8 +32,8 @@ class SwiperCell: UITableViewCell {
 		// adding text label on top of vibrancy visual effect view
 		swiperView!.topmostView().addSubview(textLbl)
 		textLbl.setTranslatesAutoresizingMaskIntoConstraints(false)
-		var constraints: [NSLayoutConstraint] = NSLayoutConstraint.constraintsWithVisualFormat("V:|[label]|", options: NSLayoutFormatOptions(0), metrics: nil, views: [ "label" : textLbl ]) as [NSLayoutConstraint]
-		constraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|-[label]", options: NSLayoutFormatOptions(0), metrics: nil, views: [ "label" : textLbl ]) as [NSLayoutConstraint]
+		var constraints: [NSLayoutConstraint] = NSLayoutConstraint.constraintsWithVisualFormat("V:|[label]|", options: NSLayoutFormatOptions(0), metrics: nil, views: [ "label" : textLbl ]) as! [NSLayoutConstraint]
+		constraints += NSLayoutConstraint.constraintsWithVisualFormat("H:|-[label]", options: NSLayoutFormatOptions(0), metrics: nil, views: [ "label" : textLbl ]) as! [NSLayoutConstraint]
 		swiperView!.topmostView().addConstraints(constraints)
 		
 		// adding labels below blurred view

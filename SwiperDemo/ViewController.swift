@@ -35,7 +35,7 @@ class ViewController: UITableViewController {
 	}
 	
 	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-		var cell = tableView.dequeueReusableCellWithIdentifier(cellID) as SwiperCell
+		var cell = tableView.dequeueReusableCellWithIdentifier(cellID) as! SwiperCell
 		cell.leftLbl.text = "Left"
 		cell.rightLbl.text = "Right"
 		cell.textLbl.text = "Some text on vibrancy effect view"

@@ -37,7 +37,7 @@ class SwiperView: UIView, UICollisionBehaviorDelegate {
 			contentView?.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
 			if let contentView = contentView {
 				animator?.removeAllBehaviors()
-				let vibrancyEffect = UIVibrancyEffect(forBlurEffect: contentView.effect as UIBlurEffect)
+				let vibrancyEffect = UIVibrancyEffect(forBlurEffect: contentView.effect as! UIBlurEffect)
 				let vibrantView = UIVisualEffectView(effect: vibrancyEffect)
 				vibrantView.frame = contentView.bounds
 				vibrantView.autoresizingMask = .FlexibleWidth | .FlexibleHeight
